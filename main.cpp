@@ -1,5 +1,6 @@
 #include <iostream>
 #include "bin.cpp"
+#include "hex.cpp"
 
 using namespace std;
 
@@ -17,6 +18,7 @@ int main() {
 
     calculate_bin(hwnm, output, tab, input);
 
+    cout << "Bin: ";
     for (int i = 0; i < hwnm; i++) cout << output[i];
     cout << endl;
 
