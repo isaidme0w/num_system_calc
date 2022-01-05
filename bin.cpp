@@ -20,7 +20,7 @@ void fill(int (&tab)[], int hwnm, int &b) {
     }
 }
 
-void calculate(int hwnm, int (&output)[], int tab[], int input) {
+void calculate_bin(int hwnm, int (&output)[], int tab[], int input) {
 
     int summary = 0;
     int j = hwnm - 1;

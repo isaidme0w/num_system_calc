@@ -15,7 +15,7 @@ int main() {
     int b = 1;
     fill(tab, hwnm, b);
 
-    calculate(hwnm, output, tab, input);
+    calculate_bin(hwnm, output, tab, input);
 
     for (int i = 0; i < hwnm; i++) cout << output[i];
     cout << endl;
