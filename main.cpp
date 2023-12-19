@@ -1,6 +1,5 @@
 #include <iostream>
 #include "bin.cpp"
-#include "hex.cpp"
 
 using namespace std;
 
@@ -22,6 +21,5 @@ int main() {
     for (int i = 0; i < hwnm; i++) cout << output[i];
     cout << endl;
 
-    cin >> input;
     return 0;
 }
